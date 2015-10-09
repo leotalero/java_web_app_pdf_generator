@@ -1,0 +1,319 @@
+package co.sistemcobro.intranet.bean;
+
+import java.util.List;
+
+public class ParametrosparaReporte  {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private String titulo;
+	private String texto1;
+	private String texto2;
+
+	
+	private String cargofirma;
+	private String nombreempresa;
+	private String nitempresa;
+	private String texto3;
+	
+	private String tipodocumento;
+	private String nombrepersona;
+	private String texto4;
+	
+	private String cedulapersona;
+	private String texto5;
+	
+	private String ciudadexpedicion;
+	private String texto6;
+
+	private String tipocontrato;
+	private String texto7;
+	private String titulocargo;
+	private String titulofechainicio;
+	private String titulofechafin;
+	private String titulosalario;
+	private List<ContratoReporte> contratosreporte;
+	
+	private String texto8;
+	private String ciudadexpedicioncertificado;
+	private String texto9;
+	private String diaenletras;
+	private String texto10;
+	private String mesenletras;
+	private String texto11;
+	private String texto12;
+	private String anoenletras;
+
+	private String cordialmente;
+	
+	private String firma;
+	private String nombrefirma;
+
+	private String piedepagina;
+	private String textocodigoverificacion;
+	private String codigoverificacion;
+	private String codigoverificaciontexto;
+	private String codigocertificado;
+	
+	public String getCargofirma() {
+		return cargofirma;
+	}
+	
+	
+	
+	public String getCordialmente() {
+		return cordialmente;
+	}
+
+
+
+	public void setCordialmente(String cordialmente) {
+		this.cordialmente = cordialmente;
+	}
+
+
+
+	public void setCargofirma(String cargofirma) {
+		this.cargofirma = cargofirma;
+	}
+	public String getNombreempresa() {
+		return nombreempresa;
+	}
+	public void setNombreempresa(String nombreempresa) {
+		this.nombreempresa = nombreempresa;
+	}
+	public String getNitempresa() {
+		return nitempresa;
+	}
+	public void setNitempresa(String nitempresa) {
+		this.nitempresa = nitempresa;
+	}
+	public String getNombrepersona() {
+		return nombrepersona;
+	}
+	public void setNombrepersona(String nombrepersona) {
+		this.nombrepersona = nombrepersona;
+	}
+	public String getCedulapersona() {
+		return cedulapersona;
+	}
+	public void setCedulapersona(String cedulapersona) {
+		this.cedulapersona = cedulapersona;
+	}
+	public String getCiudadexpedicion() {
+		return ciudadexpedicion;
+	}
+	public void setCiudadexpedicion(String ciudadexpedicion) {
+		this.ciudadexpedicion = ciudadexpedicion;
+	}
+	public String getTipocontrato() {
+		return tipocontrato;
+	}
+	public void setTipocontrato(String tipocontrato) {
+		this.tipocontrato = tipocontrato;
+	}
+	public String getTitulocargo() {
+		return titulocargo;
+	}
+	public void setTitulocargo(String titulocargo) {
+		this.titulocargo = titulocargo;
+	}
+	public String getTitulofechainicio() {
+		return titulofechainicio;
+	}
+	public void setTitulofechainicio(String titulofechainicio) {
+		this.titulofechainicio = titulofechainicio;
+	}
+	public String getTitulofechafin() {
+		return titulofechafin;
+	}
+	public void setTitulofechafin(String titulofechafin) {
+		this.titulofechafin = titulofechafin;
+	}
+	public String getTitulosalario() {
+		return titulosalario;
+	}
+	public void setTitulosalario(String titulosalario) {
+		this.titulosalario = titulosalario;
+	}
+
+	
+	
+	
+	public List<ContratoReporte> getContratosreporte() {
+		return contratosreporte;
+	}
+	public void setContratosreporte(List<ContratoReporte> contratosreporte) {
+		this.contratosreporte = contratosreporte;
+	}
+	public String getDiaenletras() {
+		return diaenletras;
+	}
+	public void setDiaenletras(String diaenletras) {
+		this.diaenletras = diaenletras;
+	}
+	public String getMesenletras() {
+		return mesenletras;
+	}
+	public void setMesenletras(String mesenletras) {
+		this.mesenletras = mesenletras;
+	}
+	public String getAnoenletras() {
+		return anoenletras;
+	}
+	public void setAnoenletras(String anoenletras) {
+		this.anoenletras = anoenletras;
+	}
+	public String getFirma() {
+		return firma;
+	}
+	public void setFirma(String firma) {
+		this.firma = firma;
+	}
+	public String getNombrefirma() {
+		return nombrefirma;
+	}
+	public void setNombrefirma(String nombrefirma) {
+		this.nombrefirma = nombrefirma;
+	}
+	public String getPiedepagina() {
+		return piedepagina;
+	}
+	public void setPiedepagina(String piedepagina) {
+		this.piedepagina = piedepagina;
+	}
+	public String getTextocodigoverificacion() {
+		return textocodigoverificacion;
+	}
+	public void setTextocodigoverificacion(String textocodigoverificacion) {
+		this.textocodigoverificacion = textocodigoverificacion;
+	}
+	public String getCodigoverificacion() {
+		return codigoverificacion;
+	}
+	public void setCodigoverificacion(String codigoverificacion) {
+		this.codigoverificacion = codigoverificacion;
+	}
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+	public String getTexto1() {
+		return texto1;
+	}
+	public void setTexto1(String texto1) {
+		this.texto1 = texto1;
+	}
+	public String getTexto2() {
+		return texto2;
+	}
+	public void setTexto2(String texto2) {
+		this.texto2 = texto2;
+	}
+	public String getTexto3() {
+		return texto3;
+	}
+	public void setTexto3(String texto3) {
+		this.texto3 = texto3;
+	}
+	public String getTexto4() {
+		return texto4;
+	}
+	public void setTexto4(String texto4) {
+		this.texto4 = texto4;
+	}
+	public String getTexto5() {
+		return texto5;
+	}
+	public void setTexto5(String texto5) {
+		this.texto5 = texto5;
+	}
+	public String getTexto6() {
+		return texto6;
+	}
+	public void setTexto6(String texto6) {
+		this.texto6 = texto6;
+	}
+	public String getTexto7() {
+		return texto7;
+	}
+	public void setTexto7(String texto7) {
+		this.texto7 = texto7;
+	}
+	public String getTexto8() {
+		return texto8;
+	}
+	public void setTexto8(String texto8) {
+		this.texto8 = texto8;
+	}
+	public String getCiudadexpedicioncertificado() {
+		return ciudadexpedicioncertificado;
+	}
+	public void setCiudadexpedicioncertificado(String ciudadexpedicioncertificado) {
+		this.ciudadexpedicioncertificado = ciudadexpedicioncertificado;
+	}
+	public String getTexto9() {
+		return texto9;
+	}
+	public void setTexto9(String texto9) {
+		this.texto9 = texto9;
+	}
+	public String getTexto10() {
+		return texto10;
+	}
+	public void setTexto10(String texto10) {
+		this.texto10 = texto10;
+	}
+	public String getTexto11() {
+		return texto11;
+	}
+	public void setTexto11(String texto11) {
+		this.texto11 = texto11;
+	}
+	public String getTitulo() {
+		return titulo;
+	}
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+	public String getTipodocumento() {
+		return tipodocumento;
+	}
+	public void setTipodocumento(String tipodocumento) {
+		this.tipodocumento = tipodocumento;
+	}
+	public String getTexto12() {
+		return texto12;
+	}
+	public void setTexto12(String texto12) {
+		this.texto12 = texto12;
+	}
+
+
+
+	public String getCodigoverificaciontexto() {
+		return codigoverificaciontexto;
+	}
+
+
+
+	public void setCodigoverificaciontexto(String codigoverificaciontexto) {
+		this.codigoverificaciontexto = codigoverificaciontexto;
+	}
+
+
+
+	public String getCodigocertificado() {
+		return codigocertificado;
+	}
+
+
+
+	public void setCodigocertificado(String codigocertificado) {
+		this.codigocertificado = codigocertificado;
+	}
+	
+	
+	
+}

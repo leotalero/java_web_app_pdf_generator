@@ -1,0 +1,93 @@
+package co.sistemcobro.intranet.bean;
+
+import java.sql.Timestamp;
+import java.util.List;
+
+/**
+ * @author gtalero
+ *
+ */
+public class ContratoReporte  {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private String numerocontrato;
+	private String ultimocargo;
+	private Timestamp fechainicio;
+	private Timestamp fechafin;
+	private String fechafinstring;
+	private String ultimosalario;
+	private Double ultimosalarionumero;
+	private Long idcontrato;
+	
+	private String  moneda;
+	
+	public String getUltimocargo() {
+		return ultimocargo;
+	}
+	public void setUltimocargo(String ultimocargo) {
+		this.ultimocargo = ultimocargo;
+	}
+	public Timestamp getFechainicio() {
+		return fechainicio;
+	}
+	public void setFechainicio(Timestamp fechainicio) {
+		this.fechainicio = fechainicio;
+	}
+	public Timestamp getFechafin() {
+		return fechafin;
+	}
+	public void setFechafin(Timestamp fechafin) {
+		this.fechafin = fechafin;
+	}
+	public String getUltimosalario() {
+		return ultimosalario;
+	}
+	public void setUltimosalario(String ultimosalario) {
+		this.ultimosalario = ultimosalario;
+	}
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+	public String getNumerocontrato() {
+		return numerocontrato;
+	}
+	public void setNumerocontrato(String numerocontrato) {
+		this.numerocontrato = numerocontrato;
+	}
+	public String getFechafinstring() {
+		return fechafinstring;
+	}
+	public void setFechafinstring(String fechafinstring) {
+		this.fechafinstring = fechafinstring;
+	}
+	public Long getIdcontrato() {
+		return idcontrato;
+	}
+	public void setIdcontrato(Long idcontrato) {
+		this.idcontrato = idcontrato;
+	}
+	public Double getUltimosalarionumero() {
+		return ultimosalarionumero;
+	}
+	public void setUltimosalarionumero(Double ultimosalarionumero) {
+		this.ultimosalarionumero = ultimosalarionumero;
+	}
+	public String getMoneda() {
+		return moneda;
+	}
+	public void setMoneda(String moneda) {
+		this.moneda = moneda;
+	}
+	
+	
+	
+	
+	
+
+
+	
+	
+}

@@ -1,0 +1,5 @@
+app.file.temporal.global = temporal_files
+
+rrhh.ftp.server = ftp.sistemcobro.com
+rrhh.ftp.user = rrhhg
+rrhh.ftp.password = @rrhh369/
